@@ -1,0 +1,29 @@
+-
+  case_no: weatch_001
+  case_name: 查询成都城市天气
+  url: 'http://wthrcdn.etouch.cn/weather_mini'
+  method: get
+  data:
+    citykey: 101270101
+  check:
+    status: 1000
+
+-
+  case_no: weatch_002
+  case_name: 查询内江城市天气
+  url: 'http://wthrcdn.etouch.cn/weather_mini'
+  method: get
+  data:
+    citykey: 101271201
+  check:
+    status: 1000
+
+-
+  case_no: weatch_003
+  case_name: 查询巴中城市天气
+  url: 'http://wthrcdn.etouch.cn/weather_mini'
+  method: get
+  data:
+    citykey: 101270901
+  check:
+    status: 1000

@@ -1,0 +1,30 @@
+2018-10-25 15:47:57,752 - root - INFO -××××××××××××××××start××××××××××××××××××
+
+2018-10-25 15:47:57,754 - root - INFO -【测试数据】：{'case_no': 'features_case_001', 'case_name': '特征集重置密码查询', 'url': 'http://172.16.1.49:10000/query/features', 'method': 'post', 'header': {'Content-Type': 'application/json'}, 'is_json': True, 'data': {'product': 'xw', 'event_type': 'rst_pay_pwd', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}, 'check': {'code': 0, 'msg': 'success'}}
+2018-10-25 15:47:57,754 - root - INFO -执行测试案例编号：features_case_001 测试案例名称：特征集重置密码查询
+2018-10-25 15:47:57,754 - root - INFO -请求参数：{'product': 'xw', 'event_type': 'rst_pay_pwd', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}
+2018-10-25 15:47:57,758 - urllib3.connectionpool - DEBUG -Starting new HTTP connection (1): 172.16.1.49:10000
+2018-10-25 15:47:57,923 - urllib3.connectionpool - DEBUG -http://172.16.1.49:10000 "POST /query/features HTTP/1.1" 200 43
+2018-10-25 15:47:57,925 - root - INFO -请求接口地址：http://172.16.1.49:10000/query/features
+2018-10-25 15:47:57,926 - root - INFO -接口响应结果:{'code': 0, 'msg': 'success', 'data': None}
+2018-10-25 15:47:57,926 - root - INFO -检查条件：{'code': 0, 'msg': 'success'}
+
+2018-10-25 15:47:57,932 - root - INFO -【测试数据】：{'case_no': 'features_case_002', 'case_name': '特征集登录查询', 'url': 'http://172.16.1.49:10000/query/features', 'method': 'post', 'header': {'Content-Type': 'application/json'}, 'is_json': True, 'data': {'product': 'xw', 'event_type': 'login', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}, 'check': {'code': 0, 'msg': 'success'}}
+2018-10-25 15:47:57,932 - root - INFO -执行测试案例编号：features_case_002 测试案例名称：特征集登录查询
+2018-10-25 15:47:57,932 - root - INFO -请求参数：{'product': 'xw', 'event_type': 'login', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}
+2018-10-25 15:47:57,935 - urllib3.connectionpool - DEBUG -Starting new HTTP connection (1): 172.16.1.49:10000
+2018-10-25 15:47:58,078 - urllib3.connectionpool - DEBUG -http://172.16.1.49:10000 "POST /query/features HTTP/1.1" 200 43
+2018-10-25 15:47:58,078 - root - INFO -请求接口地址：http://172.16.1.49:10000/query/features
+2018-10-25 15:47:58,078 - root - INFO -接口响应结果:{'code': 0, 'msg': 'success', 'data': None}
+2018-10-25 15:47:58,079 - root - INFO -检查条件：{'code': 0, 'msg': 'success'}
+
+2018-10-25 15:47:58,081 - root - INFO -【测试数据】：{'case_no': 'features_case_003', 'case_name': '特征集事件类型错误参数查询', 'url': 'http://172.16.1.49:10000/query/features', 'method': 'post', 'is_json': True, 'header': {'Content-Type': 'application/json'}, 'data': {'product': 'xw', 'event_type': 'logining', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}, 'check': {'code': 0, 'msg': 'success'}}
+2018-10-25 15:47:58,081 - root - INFO -执行测试案例编号：features_case_003 测试案例名称：特征集事件类型错误参数查询
+2018-10-25 15:47:58,081 - root - INFO -请求参数：{'product': 'xw', 'event_type': 'logining', 'major_dimension': 'ip', 'minor_dimension': 'id_card', 'time_window': '1d', 'is_active': True}
+2018-10-25 15:47:58,083 - urllib3.connectionpool - DEBUG -Starting new HTTP connection (1): 172.16.1.49:10000
+2018-10-25 15:47:58,235 - urllib3.connectionpool - DEBUG -http://172.16.1.49:10000 "POST /query/features HTTP/1.1" 200 81
+2018-10-25 15:47:58,236 - root - INFO -请求接口地址：http://172.16.1.49:10000/query/features
+2018-10-25 15:47:58,237 - root - INFO -接口响应结果:{'msg': "参数错误['logining']", 'code': 1000050001, 'data': None}
+2018-10-25 15:47:58,237 - root - INFO -检查条件：{'code': 0, 'msg': 'success'}
+
+2018-10-25 15:47:58,342 - root - INFO -××××××××××××××××end××××××××××××××××××

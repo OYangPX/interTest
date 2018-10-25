@@ -1,0 +1,9 @@
+log:
+  backup: 5
+  console_levle: DEBUG
+  file_level: DEBUG
+  pattern: '%(asctime)s - %(name)s - %(levelname)s -%(message)s'
+
+
+
+
